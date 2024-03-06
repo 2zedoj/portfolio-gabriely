@@ -1,0 +1,717 @@
+<div class="container-m-0">
+  <div class="row hero">
+    <a href="#" id="home" class="ancora-link"></a>
+    <div class="row header">
+      <div class="col logo">
+        <a href="#home"><img src="../assets/Fotos/My Logo/Logo - Fundo Verde 01.png" alt="MyLogo" class="img-myLogo"></a>
+      </div>
+      <div class="col headerLink">
+        <div class="row">
+          <div class="col link">
+            <a href="#home" class="txt-link">Home</a>
+          </div>
+          <div class="col link">
+            <a href="#aboutMe" class="txt-link">About Me</a>
+          </div>
+          <div class="col link">
+            <a href="#portfolio" class="txt-link">Portfolio</a>
+          </div>
+          <div class="col block-btn-contactMe">
+            <a href="#contactMeLink" class="txt-link"><button type="button" class="btn btn-success btn-contactMe">Contact Me</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row heroApresentation">
+      <div class="col apresentation">
+        <div class="row myName">
+          <p class="txt-name">Hello, My name is <span class="txt-name txt-bold"> Gabriely</span></p>
+        </div>
+        <div class="row profession">
+          <div class="col">
+            <div class="row block-profession">
+              <p class="txt-apresentation">I am, <br>
+                FULLSTACK <br>
+                DEVELOPER <br>
+                SOFTWARE. <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col heroFigure">
+        <div class="row div-img-hero">
+          <img src="../assets/Fotos/Developer activity-cuate.png" alt="fundo hero" class="img-hero">
+        </div>
+        <div class="row div-legend-img">
+          <a href="https://storyset.com/work" class="txt-legend-img-hero">Work illustrations by Storyset</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" id="aboutMe" class="ancora-link"></a>
+  <div class="row aboutMe">
+    <div class="col">
+      <div class="row div-quadrado div-quadrado-superior">
+        <div class="quadrado-superior">
+        </div>
+      </div>
+      <div class="row div-aboutMe">
+        <div class="col block-aboutMe">
+          <div class="row div-txt-title">
+            <p class="txt-title">About Me</p>
+          </div>
+          <div class="row block-descriptionMe">
+            <div class="col col-4 block-myPhoto">
+              <img src="../assets/Fotos/Group 3AboutMe.png" alt="My Foto" class="img-myFoto">
+            </div>
+            <div class="col div-descriptionMe">
+              <div class="row div-txt-descriptionMe">
+                <p class="txt-descriptionMe">
+                  I am a Computer Engineer, graduated from PUCPR in 2023, since my graduation until the present
+                  moment, I am specializing in Agile Software Development at the Federal University of Paraná. 
+                  My professional experience was developed during my internship at Volvo do Brasil Veiculos 
+                  LTDA, as a applications, and trainee at Sonda, with RPA's. Always seeking to deliver 
+                  innovations, qualities and values to the area. Furthermore, I care about my footprint in the 
+                  world and I am always developing innovations or mobilizing actions social, to improve both 
+                  the environment and people's lives, as I entered the computing area to being able to use this
+                  knowledge to change lives.
+                </p>
+              </div>
+              <div class="row div-btn-CVandResume">
+                <div class="col div-btn-Resume">
+                  <button type="button" class="btn btn-light btn-Resume" (click)="download('/assets/PDF/Resume%20Gabriely.pdf')">Resume</button>
+                </div>
+                <div class="col div-btn-CV">
+                  <button type="button" class="btn btn-light btn-myCV" (click)="download('/assets/PDF/CV%20Gabriely.pdf')">My CV</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row div-quadrado div-quadrado-inferior ">
+        <div class="quadrado-inferior">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row portfolio">
+    <a href="#" id="portfolio" class="ancora-link"></a>
+    <div class="col div-portfolio">
+      <div class="row div-txt-titlePortifolio">
+        <p class="txt-titlePortifolio">Portfolio</p>
+      </div>
+      <div class="row div-listProjects">
+        <mat-tab-group animationDuration="1000ms" class="listProjects">
+          <mat-tab label="C#/.NET">
+            <mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+              <mat-tab label="Terminados" color="sucess">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">
+                    There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.
+                  </p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Em Andamento" color="inProgress">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Futuros" color="nextProjects">
+                <div class="div-projects">
+                  <div class="row div-row-project">
+                    <div class="col col-8">
+                      <div class="row div-titule-project">
+                        <p class="txt-titule-project">Project 01 - Library API Finance</p>
+                      </div>
+                      <div class="row div-description-project">
+                        <p class="txt-description-project">
+                          This project is a library that calls an external API and its result is inserted 
+                          into another API that was created. The library's function is to return data from 
+                          the stock exchange and make a prediction, with AI, of the future values that 
+                          Stock Exchange will have. The AI used deep larning <br><br><br><br><br>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col col-4 div-img-logo">
+                      <a href="https://github.com/2zedoj/Library_API_Finance">
+                        <img src="../assets/Fotos/Logos/Git Logo.png" alt="imagem git" class=".img-project-logo"></a>
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-tab>
+          <mat-tab label="Python"><mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+            <mat-tab label="Terminados" color="sucess">
+              <div class="div-projects">
+                <div class="row div-row-project">
+                  <div class="col col-8">
+                    <div class="row div-titule-project">
+                      <p class="txt-titule-project">Project 01 - TCC </p>
+                    </div>
+                    <div class="row div-description-project">
+                      <p class="txt-description-project">
+                        My TCC had the topic of deep learning for detecting emotion through audio, this 
+                        topic is a branch of a doctoral topic. Here we use the concept of deep learning, 
+                        regression and optimization, we use python to train and create the models. 
+                        <br><br><br><br><br>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col col-4 div-img-logo">
+                    <a href="">
+                      <img src="../assets/Fotos/Logos/Git Logo.png" alt="imagem git" class=".img-project-logo"></a>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+            <mat-tab label="Em Andamento" color="inProgress">
+              <div class="div-projects">
+                <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                  , but don't be discouraged, take a look at the next categories.</p>
+              </div>
+            </mat-tab>
+            <mat-tab label="Futuros" color="nextProjects">
+              <div class="div-projects">
+                <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                  , but don't be discouraged, take a look at the next categories.</p>
+              </div>
+            </mat-tab>
+          </mat-tab-group></mat-tab>
+          <mat-tab label="HTML/CSS/TypeScript">
+            <mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+              <mat-tab label="Terminados" color="sucess">
+                <div class="div-projects">
+                  <div class="row div-row-project">
+                    <div class="col col-8">
+                      <div class="row div-titule-project">
+                        <p class="txt-titule-project">Project 01 - Portfolio </p>
+                      </div>
+                      <div class="row div-description-project">
+                        <p class="txt-description-project">
+                          I created my portfolio to show my experiences, projects, contacts and a little 
+                          about myself. For this project I used HTML, CSS and Typescript, in addition to 
+                          the Angular and Bootstrap material components.
+                          <br><br><br><br><br>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col col-4 div-img-logo">
+                      <a href="https://github.com/2zedoj/Portfolio">
+                        <img src="../assets/Fotos/Logos/Git Logo.png" alt="imagem git" class=".img-project-logo"></a>
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+              <mat-tab label="Em Andamento" color="inProgress">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Futuros" color="nextProjects">
+                <div class="div-projects">
+                  <div class="row div-row-project">
+                    <div class="col col-8">
+                      <div class="row div-titule-project">
+                        <p class="txt-titule-project">Project 01 - Finance </p>
+                      </div>
+                      <div class="row div-description-project">
+                        <p class="txt-description-project">
+                          This project is an interface of my application the finance. In this application will
+                          has a list the company and its attributes in the stock exchange and with the help 
+                          of the AI, to give a forecast of the values in the stock exchange. According to the
+                          user's profile, it will give suggested investment and a bot that helps the user to
+                          use the application and the other functions  
+                          <br><br><br><br><br>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col col-4 div-img-logo">
+                      <a href="">
+                        <img src="../assets/Fotos/Logos/Git Logo.png" alt="imagem git" class=".img-project-logo"></a>
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-tab>
+          <mat-tab label="Figma">
+            <mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+              <mat-tab label="Terminados" color="sucess">
+                <div class="col div-projects">
+                  <div class="row div-row-project">
+                    <div class="col col-8">
+                      <div class="row div-titule-project">
+                        <p class="txt-titule-project">Projeto 01 - Design Portfólio</p>
+                      </div>
+                      <div class="row div-description-project">
+                        <p class="txt-description-project">
+                          This project is my design created for my portfolio. <br><br><br><br><br>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col col-4 div-img-logo">
+                      <a href="https://www.figma.com/file/65RHVSNBbGxHGR4pQkNQ7n/My-Portifolio?type=design&t=uT8Y8RpaAC9Pjkbt-6">
+                        <img src="../assets/Fotos/Logos/Figma.png" alt="imagem figma" class=".img-project-logo"></a>
+                    </div>
+                  </div>
+                  <div class="row div-row-project">
+                    Projeto 02
+                  </div>
+                </div>
+              </mat-tab>
+              <mat-tab label="Em Andamento" color="inProgress">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Futuros" color="nextProjects">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-tab>
+          <mat-tab label="ONU">
+            <mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+              <mat-tab label="Terminados" color="sucess">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Em Andamento" color="inProgress">
+                <div class="col div-projects">
+                  <div class="row div-row-project">
+                    <div class="col col-8">
+                      <div class="row div-titule-project">
+                        <p class="txt-titule-project">13 - Action 
+                            against global climate change (2024)</p>
+                      </div>
+                      <div class="row div-description-project">
+                        <p class="txt-description-project">
+                          Each year, I aim to implement a solution, using technology knowledge, to solve or 
+                          help one of the 18 UNO objectives, this year theme 13 was drawn, which is "Action 
+                          against global climate change" <br><br><br><br><br>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col col-4 div-img-logo">
+                      <a href="https://brasil.un.org/pt-br/sdgs/13">
+                        <img src="../assets/Fotos/Logos/Objetivo - 13 ONU.png" alt="imagem figma" class=".img-project-logo"></a>
+                    </div>
+                  </div>
+                  <div class="row div-row-project">
+                    Projeto 02
+                  </div>
+                </div>
+              </mat-tab>
+              <mat-tab label="Futuros" color="nextProjects">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-tab>
+          <mat-tab label="IA">
+            <mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+              <mat-tab label="Terminados" color="sucess">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Em Andamento" color="inProgress">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Futuros" color="nextProjects">
+                <div class="div-projects">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-tab>
+          <mat-tab label="Others Projects">
+            <mat-tab-group animationDuration="1000ms" class="listProjectsStatus" mat-stretch-tabs = "false"  mat-align-tabs = "center">
+              <mat-tab label="Terminados" color="sucess">
+                <div class="div-project">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Em Andamento" color="inProgress">
+                <div class="div-project">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+              <mat-tab label="Futuros" color="nextProjects">
+                <div class="div-project">
+                  <p class="txt-nenhumProjeto">There are currently no projects in this category <mat-icon class="icon-bad">mood_bad</mat-icon>
+                    , but don't be discouraged, take a look at the next categories.</p>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+    </div>
+  </div>
+  <div class="row experience">
+    <div class="col block-experience">
+      <div class="row div-titule-page">
+        <p class="txt-titule-experience">Experience</p>
+      </div>
+      <div class="row block-list-img">
+        <div class="col">
+          <div class="row div-list-experience">
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-NET" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/NET.png" alt="imagem .NET Core">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-NET" class="collapse txt-level-experience">
+                  .NET Core:
+                  <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-csharp" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/csharp.png" alt="imagem C# Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-csharp" class="collapse txt-level-experience">
+                  C#:
+                  <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-python" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Python.png" alt="imagem python logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-python" class="collapse txt-level-experience">
+                  Python:
+                  <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-typescript" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/typescript.png" alt="imagem typescript logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-typescript" class="collapse txt-level-experience">
+                  TypeScript:
+                  <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-MySQL" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/MySQL.png" alt="imagem MySQL">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-MySQL" class="collapse txt-level-experience">
+                  MySQL:
+                  <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Azure" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Azure.png" alt="imagem Azure">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Azure" class="collapse txt-level-experience">
+                  Microsoft Azure:
+                  <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row div-list-experience">
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Angular" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Angular.png" alt="imagem Angular">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Angular" class="collapse txt-level-experience">
+                  Angular:
+                  <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-HTML" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/HTML.png" alt="imagem HTML Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-HTML" class="collapse txt-level-experience">
+                  HTML:
+                  <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-CSS" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/CSS.png" alt="imagem CSS Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-CSS" class="collapse txt-level-experience">
+                  CSS:
+                  <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Figma" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Figma.png" alt="imagem Figma Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Figma" class="collapse txt-level-experience">
+                  Figma:
+                  <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Canva" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Canva.png" alt="imagem Canva Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Canva" class="collapse txt-level-experience">
+                  Canva:
+                  <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-GitHub" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Git Logo.png" alt="imagem GitHub Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-GitHub" class="collapse txt-level-experience">
+                  GitHub:
+                  <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row div-list-experience">
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-IA" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/IA.png" alt="imagem IA Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-IA" class="collapse txt-level-experience">
+                  Artificial Intelligence:
+                  <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>  
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Excel" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Excel.png" alt="imagem Excel Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Excel" class="collapse txt-level-experience">
+                  Excel:
+                  <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Word" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Word.png" alt="imagem Word Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Word" class="collapse txt-level-experience">
+                  Word:
+                  <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-PowerPoint" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/PowerPoint.png" alt="imagem PowerPoint Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-PowerPoint" class="collapse txt-level-experience">
+                  PowerPoint:
+                  <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-RPA" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/RPA.png" alt="imagem RPA Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-RPA" class="collapse txt-level-experience">
+                  RPA:
+                  <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+            <div class="col col-2">
+              <div class="row div-img-experience">
+                <button data-bs-toggle="collapse" data-bs-target="#demo-Documentação" class="btn-logo-experience">
+                  <img src="../assets/Fotos/Logos/Documentação.png" alt="imagem Documentação Logo">
+                </button>
+              </div>
+              <div class="row div-level-experience">
+                <div id="demo-Documentação" class="collapse txt-level-experience">
+                  Application Documentation:
+                  <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row contactMe">
+    <a href="#" id="contactMeLink" class="ancora-link"></a>
+    <div class="col block-contactMe">
+      <div class="row div-links-contactMe">
+        <div class="col col-6">
+          <div class="row div-title-contactMe">
+            <p class="txt-title-contactMe">Contact Me</p>
+          </div>
+          <div class="row link-redes-contactMe ">
+            <div class="col">
+              <div class="row div-link-contactMe">
+                <div class="col col-2 ">
+                  <img src="../assets/Fotos/Logos/Git Logo.png" alt="imagem logo GitHub">
+                </div>
+                <div class="col col-10 div-txt-contactMe-lINK">
+                  <a href="https://github.com/2zedoj" class="txt-link-ContactMe">Link GitHub</a>
+                </div>
+              </div>
+              <div class="row div-link-contactMe">
+                <div class="col col-2 ">
+                  <img src="../assets/Fotos/Logos/Linkedin - Logo.png" alt="imagem logo Linkedin">
+                </div>
+                <div class="col col-10 div-txt-contactMe-lINK">
+                  <a href="https://www.linkedin.com/in/gabriely-rodrigues-do-carmo-a133a1235/" class="txt-link-ContactMe">Link Linkedin</a>
+                </div>
+              </div>
+              <div class="row div-link-contactMe">
+                <div class="col col-2 ">
+                  <img src="../assets/Fotos/Logos/Instagram - Logo.png" alt="imagem logo instagra,">
+                </div>
+                <div class="col col-10 div-txt-contactMe-lINK">
+                  <a href="https://www.instagram.com/gabriely_rod?utm_source=qr&igsh=MTVxc2ozazB5cjNyeQ==" class="txt-link-ContactMe">{{'@gabriely_rod'}}</a>
+                </div>
+              </div>
+              <div class="row div-link-contactMe">
+                <div class="col col-2 ">
+                  <img src="../assets/Fotos/Logos/WhatsApp - Logo.png" alt="imagem logo WhatsApp">
+                </div>
+                <div class="col col-10 div-txt-contactMe-lINK">
+                  <a href="https://api.whatsapp.com/send?phone=5541995663728&text=Olá%20,estou%20entrando%20em%20contato%20pelo%20seu%20portifolio" class="txt-link-ContactMe">+55 (41) 99566-3728</a>
+                </div>
+              </div>
+              <div class="row div-link-contactMe">
+                <div class="col col-2 img-localização">
+                  <img src="../assets/Fotos/Logos/Localização - Logo.png" alt="imagem logo localização" >
+                </div>
+                <div class="col col-10 div-txt-contactMe-lINK">
+                  <a href="" class="txt-link-ContactMe">Colombo/PR - Brazil
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-6 div-form-contactMe">
+          <form class="from-contactMe">
+            <div class="row div-input-email">
+              <mat-form-field class="example-full-width inputs">
+                <input type="email" matInput [formControl]="emailFormControl" placeholder="Email*">
+                @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+                  <mat-error>Please enter a valid email address</mat-error>
+                }
+                @if (emailFormControl.hasError('required')) {
+                  <mat-error>Email is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+            <div class="row div-input-name">
+              <mat-form-field class="example-full-width inputs">
+                <input type="text" matInput [formControl]="nameFormControl" placeholder="Name*">
+                @if (nameFormControl.hasError('required')) {
+                  <mat-error>Name is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+            <div class="row div-input-textArea">
+              <mat-form-field class="example-full-width inputs">
+                <input type="textarea" matInput [formControl]="messageFormControl" placeholder="Message*">
+                @if (messageFormControl.hasError('required')) {
+                  <mat-error>Message is <strong>required</strong></mat-error>
+                }
+              </mat-form-field>
+            </div>
+            <div class="row div-btn-send">
+              <button type="submit" mat-button class="btn-send" 
+              
+              (click)="sendContactMe()">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

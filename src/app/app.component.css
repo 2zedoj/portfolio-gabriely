@@ -1,0 +1,584 @@
+@media (min-width: 320px) and (max-width: 767px){
+    *{
+        --fs-1: 0.7vw;
+        --fs-2: 1vw;
+        --fs-3: 1.8vw;
+        --fs-4: 3.3vw;
+        --fs-5: 6.5vw;
+        --fs-6: 1.3vw;
+        --fs-7: 3vw;
+        --fs-8: 0.5vw;
+        --fs-9: 0.3vw;
+        --fs-10: 1.5vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    *{
+        --fs-1: 0.7vw;
+        --fs-2: 1vw;
+        --fs-3: 1.8vw;
+        --fs-4: 3.3vw;
+        --fs-5: 6.5vw;
+        --fs-6: 1.3vw;
+        --fs-7: 3vw;
+        --fs-8: 0.5vw;
+        --fs-9: 0.3vw;
+        --fs-10: 1.5vw;
+    }
+}
+@media (min-width: 1024px){
+    *{
+        --fs-1: 0.7vw;
+        --fs-2: 1vw;
+        --fs-3: 1.8vw;
+        --fs-4: 3.3vw;
+        --fs-5: 6.5vw;
+        --fs-6: 1.3vw;
+        --fs-7: 3vw;
+        --fs-8: 0.5vw;
+        --fs-9: 0.3vw;
+        --fs-10: 1.5vw;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+/*.row{
+    border: 3px solid blue;
+}
+.col{
+    border: 3px solid pink;
+}
+
+/*------ Pagina Hero - Primeira Pagina ------*/
+.hero{
+    background-color: #E6EFD0;
+    padding-left: 10%;
+    /*padding-right: 2%;*/
+}
+.header{
+    height: 15%;
+    padding-right: 8%;
+}
+.logo{
+    padding-top: 0.7%;
+}
+.heroApresentation{
+    height: 85%;
+}
+.headerLink{
+    border-radius: 0px 0px 0px 80px;
+    background-color: #E6EFD0;
+    position: fixed;
+    height: 14%;
+    width: 52%;
+    margin-left: 38%;
+    z-index: 2;
+}
+.myName{
+    height: 15%;
+}
+.profession{
+    height: 85%;
+}
+.apresentation{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 0;
+    margin-right: -20%;
+}
+.heroFigure{
+    position: relative;
+    z-index: 1;
+}
+.div-img-hero{
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-hero{
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.div-legend-img{
+    height: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.txt-legend-img-hero{
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    color: #297C3F;
+    font-size: var(--fs-2);
+    font-weight: bold;
+
+}
+.ancora-link{
+    height: 0%;
+}
+.txt-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7CC529;
+    font-family: 'Libre Casion Text';
+    font-size: var(--fs-3);
+    font-weight: bold;
+}
+.txt-link:hover{
+    color: #184720;
+    text-shadow: 0.5px 0.5px 1px #184720;
+}
+.block-btn-contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7CC529;
+    color: white;
+    font-family: 'Libre Casion Text';
+    font-size: var(--fs-3);
+    font-weight: bold;
+    border-radius: 20px;
+    padding: var(--fs-1);
+    height: 60%;
+}
+.txt-name{
+    font-family: 'Inter';
+    font-size: var(--fs-4);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.txt-bold{
+    font-weight: bold;
+    margin-left: var(--fs-2);
+    z-index: 1;
+    margin-right: -20%;
+}
+.block-profession{
+    height: 100%;
+}
+.txt-apresentation{
+    font-weight: bold;
+    font-family: 'Libre Casion Text';
+    font-size: var(--fs-5);
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+/*-------------------------------------------*/
+
+/*------ Pagina About Me - Segunda Pagina ------*/
+.aboutMe{
+    background-color: #184720;
+}
+.div-quadrado{
+    height: 10%;
+}
+.div-aboutMe{
+    height: 80%;
+}
+.block-aboutMe{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.div-txt-title{
+    height: 15%;
+}
+.block-descriptionMe{
+    height: 85%;
+}
+.div-txt-descriptionMe{
+    height: 70%;
+    padding-top: 7%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+.div-btn-CVandResume{
+    height: 30%;
+}
+.div-quadrado-superior{
+    padding-left: 20%;
+}
+.quadrado-superior{
+    width: 6%;
+    border-top: 50px solid #E6EFD0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+.div-quadrado-inferior{
+    padding-left: 30%;
+}
+.quadrado-inferior{
+    width: 6%;
+    border-top: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #E6EFD0;
+}
+.txt-title{
+    color: white;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: var(--fs-4);
+    display: flex;
+    align-items: center;
+}
+.block-myPhoto{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: -20%;
+}
+.img-myFoto{
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+}
+.txt-descriptionMe{
+    color: white;
+    font-family: 'Inter';
+    font-size: var(--fs-6);
+    line-height: 1;
+}
+.div-btn-Resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-Resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    font-family: 'Libre Casion Text';
+    font-size: var(--fs-7);
+    font-weight: bold;
+    border: white solid 10px;
+    border-radius: 20px;
+    padding: var(--fs-2);
+    height: 80%;
+    width: 80%;
+}
+.div-btn-CV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-myCV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    font-family: 'Libre Casion Text';
+    font-size: var(--fs-7);
+    font-weight: bold;
+    border: white solid 10px;
+    border-radius: 20px;
+    padding: var(--fs-2);
+    height: 80%;
+    width: 80%;
+}
+/*-----------------------------------------------*/
+
+/*------ Pagina Portfólio - Terceira Pagina -------*/
+.portfolio{
+    background-color: #E6EFD0;
+}
+.div-portfolio{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.div-txt-titlePortifolio{
+    height: 10%;
+}
+.div-listProjects{
+    height: 88%;
+}
+.div-txt-titlePortifolio{
+    padding-top: 2%;
+}
+.txt-titlePortifolio{
+    color: #737373;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: var(--fs-4);
+}
+.div-listProjects{
+    height: 78%;
+}
+.div-moreProjects{
+    height: 5%;
+}
+.mat-mdc-tab {
+    font-size: var(--fs-2);
+}
+/* Change Tab header Height*/
+::ng-deep .mat-mdc-tab-header .mdc-tab{
+    margin-top: var(--fs-8);
+    margin-bottom: var(--fs-9);
+    height: 30%;
+}
+/*Change tab header text color*/
+::ng-deep .mat-mdc-tab .mdc-tab__text-label,
+::ng-deep .mat-mdc-tab-link .mdc-tab__text-labe {
+    color: #737373 !important;
+
+}
+/*Change global Tab CSS*/
+::ng-deep  .mdc-tab {
+    font-size: var(--mdc-typography-button-font-size, var(--fs-3)) !important;
+    font-weight: var(--mdc-typography-button-font-weight, 600) !important;
+}
+
+mat-tab.my-mat-tab .mat-tab-list .mat-tab-labels .mat-tab-label-active{
+    background-color: #184720;
+   }
+
+/*Change active tab header label color (success Status)
+::ng-deep .mat-mdc-tab-group.mat-success .mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label,
+::ng-deep .mat-mdc-tab-group.mat-success .mat-mdc-tab-link:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label,
+::ng-deep .mat-mdc-tab-nav-bar.mat-success .mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label,
+::ng-deep .mat-mdc-tab-nav-bar.mat-success .mat-mdc-tab-link:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label{
+    color: #7CC529;
+}*/
+
+::ng-deep .mat-mdc-tab-group.listProjects .mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,
+::ng-deep .mat-mdc-tab-group.listProjects .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,
+::ng-deep .mat-mdc-tab-nav-bar.listProjects .mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,
+::ng-deep .mat-mdc-tab-nav-bar.listProjects .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline{
+    border-bottom: 5px solid #297C3F;
+}
+
+
+::ng-deep .mat-mdc-tab-group.listProjectsStatus .mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,
+::ng-deep .mat-mdc-tab-group.listProjectsStatus .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,
+::ng-deep .mat-mdc-tab-nav-bar.listProjectsStatus .mat-mdc-tab:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline,
+::ng-deep .mat-mdc-tab-nav-bar.listProjectsStatus .mat-mdc-tab-link:not(.mat-mdc-tab-disabled) .mdc-tab-indicator__content--underline{
+    border-bottom: 3px solid #6C9331;
+}
+
+.div-projects{
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.txt-nenhumProjeto{
+    font-size: var(--fs-6);
+    line-height: 1;
+}
+.icon-bad{
+    transform: scale(1.5);
+}
+.div-row-project{
+    margin-bottom: 1%;
+}
+.div-titule-project{
+    height: 15%;
+}
+.div-description-project{
+    height: 85%;
+}
+.txt-titule-project{
+    font-family: 'Inter';
+    font-size: var(--fs-3);
+    font-weight: bolder;
+    color: #297C3F;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.txt-description-project{
+    padding-top: 3%;
+    font-family: 'Inter';
+    font-size: var(--fs-2);
+    font-weight: 30px;
+    color: #737373;
+    line-height: 1;
+}
+.div-img-logo{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+}
+.img-project-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------------------*/
+
+
+/*------ Pagina Experiencias - Quarta Pagina -------*/
+
+.experience{
+    background-color: white;
+}
+.block-experience{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+.div-titule-page{
+    height: 15%;
+}
+.block-list-img{
+    height: 85%;
+    padding: 1%;
+}
+.txt-titule-experience{
+    font-family: 'Inter';
+    font-size: var(--fs-4);
+    font-weight: bold;
+    color: #737373;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.div-list-experience{
+    height: 33%;
+}
+.div-img-experience{
+    height: 70%;
+}
+.div-level-experience{
+    height: 30%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.btn-logo-experience{
+    background-color: white;
+}
+.txt-level-experience{
+    font-size: var(--fs-1);
+    padding-top: 1%;
+}
+/*-------------------------------------------------*/
+
+/*------ Pagina Contato - Quinta Pagina -------*/
+
+.contactMe{
+    background-color: #737373;
+    border-radius: 200px 200px 0px 0px;
+}
+.block-contactMe{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+.div-title-contactMe{
+    height: 15%;
+    padding-bottom: 2%;
+}
+.txt-title-contactMe{
+    color: #E6EFD0;
+    padding-bottom: 1%;
+    border-bottom: 10px solid #E6EFD0;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: var(--fs-4);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.link-redes-contactMe{
+    height: 85%;
+    padding-top: 2%;
+    padding-left: 15%;
+}
+.div-links-contactMe{
+    padding-bottom: 6%;
+}
+.div-link-contactMe{
+    height: 20%;
+    padding-bottom: 2%;
+}
+.div-txt-contactMe-lINK{
+    padding-left: 5%;
+    
+}
+.txt-link-ContactMe{
+    text-decoration: none;
+    color: #E6EFD0;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: var(--fs-10);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    line-height: 1;
+}
+.img-localização{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-form-contactMe{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.div-input-email{
+    height: 20%;
+}
+.div-input-name{
+    height: 20%;
+}
+.div-input-textArea{
+    height: 50%;
+}
+.div-btn-send{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.btn-send{
+    width: 30%;
+    height: 65%;
+    background-color: #184720;
+    color:#E6EFD0;
+    font-size: var(--fs-10);
+}
+.inputs{
+    font-size: var(--fs-6);
+}
+
+/*-------------------------------------------------*/
