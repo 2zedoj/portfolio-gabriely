@@ -427,7 +427,7 @@ mat-tab.my-mat-tab .mat-tab-list .mat-tab-labels .mat-tab-label-active{
     padding-top: 3%;
     font-family: 'Inter';
     font-size: var(--fs-2);
-    font-weight: 30px;
+    font-weight: 30;
     color: #737373;
     line-height: 1;
 }

@@ -7,7 +7,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import emailjs from '@emailjs/browser';
 import { HttpClientModule } from '@angular/common/http';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
-import { environment } from "../environments/environment";
+import { environment } from "../environments/environment.prod";
 import {
   FormControl,
   FormGroupDirective,
